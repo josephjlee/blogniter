@@ -1,0 +1,27 @@
+.ck-editor__editable {
+  height: 300px;
+}
+
+.category-form .ck-editor__editable {
+  height: 200px;
+}
+
+#wrapper-auth {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 992px) { 
+  #gallery-col {
+    height: 6.875rem;
+  }
+
+  #gallery-thumb {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
+}
+
